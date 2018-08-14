@@ -1,0 +1,24 @@
+{
+  "name": "jquery-scroll-top",
+  "description": "Plugin jQuery que cria um botao voltar ao topo para o site",
+  "main": "",
+  "keywords": [
+    "back",
+    "to",
+    "top",
+    "jquery",
+    "plugin"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.rafapaulino.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
