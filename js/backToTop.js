@@ -1,8 +1,8 @@
 (function ( $ ) {
  
-    $.fn.scrollTop = function() {
-        var $scrollTop = this;
-            
+    $.fn.backToTop = function() {
+        var $scrollTop = this;   
+        
         $(window).scroll(function() {
             // declare variable
             var topPos = $(this).scrollTop();
@@ -14,16 +14,16 @@
                 $scrollTop.css("opacity", "0");
             }
         
-        }); // scroll END
+        }); // scroll END 
 
         //Click event to scroll to top
         $scrollTop.on('click', function() {
             $('html, body').animate({
-            scrollTop: 0
+                scrollTop: 0
             }, 800);
             return false;
 
-        }); // click() scroll top EMD
+        }); // click() scroll top
 
         return this;
     };

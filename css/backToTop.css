@@ -1,5 +1,5 @@
 /* link with scroll top */
-.scrollTop {
+.backToTop {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -16,7 +16,7 @@
 }
 
 /* arrow with scroll top */
-.scrollTop i {
+.backToTop i {
     color: #FFF;
     font-size: 15px;
     display: block;
