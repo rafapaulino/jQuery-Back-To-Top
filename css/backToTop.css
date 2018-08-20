@@ -16,7 +16,7 @@
 }
 
 /* arrow with scroll top */
-.backToTop i {
+.backToTop .fa {
     color: #FFF;
     font-size: 15px;
     display: block;
