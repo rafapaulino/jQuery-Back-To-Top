@@ -53,3 +53,10 @@
 .backToTop.bg-darkgreen {
     background: rgba(0, 100, 0, 0.9);
 }
+
+
+.backToTop.circle {
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+}
