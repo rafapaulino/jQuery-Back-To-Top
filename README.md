@@ -3,7 +3,7 @@
 This is a simple plugin that creates a scroll to the top using jQuery.
 ## Features
 
-- `v1.0.1` CSS min added.
+- `v1.0.5` CSS min added.
 - `v1.0.0` Creating the plugin.
 
 ### Important informations
