@@ -12,13 +12,23 @@ module.exports = function(grunt) {
                     ]
                 }
             }
-        }
+        },
+        cssmin: {
+			target: {
+				files: {
+					'css/backToTop.min.css': [
+						'css/backToTop.css'
+					]
+				}
+			}
+		}
     });
 
     // These plugins provide necessary tasks.
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // Default task.
-    grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('default', ['uglify','cssmin']);
 
 };
